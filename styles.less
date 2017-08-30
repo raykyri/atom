@@ -1,0 +1,95 @@
+@font: Inconsolata;
+@nav-font-size: 15px;
+@text-font-size: 15px;
+@footer-font-size: 15px;
+@tooltip-font-size: 13px;
+@background: #000;
+
+//
+// FONTS
+//
+
+html, body, .tree-view, .tab-bar .tab {
+  font-family: @font;
+  font-size: @nav-font-size;
+}
+
+atom-text-editor {
+  font-family: @font;
+  font-size: @text-font-size;
+}
+
+.footer {
+  font-family: @font;
+  font-size: @footer-font-size;
+}
+
+//
+// BACKGROUND COLORS
+//
+
+.footer status-bar {
+  background: @background;
+}
+
+atom-text-editor,
+.tree-view,
+.tab-bar,
+.tab-bar .tab {
+  background-color: @background !important;
+}
+
+atom-pane.active .tab.active:before {
+  background: none;
+}
+
+//
+//  LIST PANEL STYLING
+//
+
+atom-dock {
+  .atom-dock-toggle-button {
+    display: none;
+  }
+
+  .list-tree.has-collapsable-children .list-nested-item > .list-tree > li, .list-tree.has-collapsable-children .list-nested-item > .list-group > li {
+    margin-left: 0;
+  }
+
+  // row height
+  .tree-view .project-root.project-root > .header .name {
+    line-height: 2em;
+  }
+  .tree-view .project-root.project-root:before {
+    height: 2em;
+    border: none !important;
+  }
+  .tree-view::before {
+    height: 2em;
+  }
+
+  // icons
+  .name.icon::before {
+    display: none !important;
+  }
+
+  .tab-bar .tab .title {
+    text-transform: uppercase;
+  }
+}
+
+//
+// FOOTER
+//
+
+.footer {
+  display: none;
+}
+
+//
+// TOOLTIPS
+//
+.tooltip {
+  font-family: @font;
+  font-size: @tooltip-font-size;
+}

@@ -1,0 +1,76 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/zr/p7qm4xcd5ng0m6jh7tj_ykph0000gn/T/d-117729-82271-mpyjvk.a7xk7ta9k9/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/zr/p7qm4xcd5ng0m6jh7tj_ykph0000gn/T/d-117729-82271-mpyjvk.a7xk7ta9k9/package.tgz",
+        "spec": "/private/var/folders/zr/p7qm4xcd5ng0m6jh7tj_ykph0000gn/T/d-117729-82271-mpyjvk.a7xk7ta9k9/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/zr/p7qm4xcd5ng0m6jh7tj_ykph0000gn/T/apm-install-dir-117729-82271-1jvdg9a.dwkbotj4i"
+    ]
+  ],
+  "_from": "../d-117729-82271-mpyjvk.a7xk7ta9k9/package.tgz",
+  "_id": "chary-tree-view@0.2.13",
+  "_inCache": true,
+  "_location": "/chary-tree-view",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/zr/p7qm4xcd5ng0m6jh7tj_ykph0000gn/T/d-117729-82271-mpyjvk.a7xk7ta9k9/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/zr/p7qm4xcd5ng0m6jh7tj_ykph0000gn/T/d-117729-82271-mpyjvk.a7xk7ta9k9/package.tgz",
+    "spec": "/private/var/folders/zr/p7qm4xcd5ng0m6jh7tj_ykph0000gn/T/d-117729-82271-mpyjvk.a7xk7ta9k9/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-117729-82271-mpyjvk.a7xk7ta9k9/package.tgz",
+  "_shasum": "a41891e799795d1824e873e09fbf32bcfbd08e8d",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/zr/p7qm4xcd5ng0m6jh7tj_ykph0000gn/T/d-117729-82271-mpyjvk.a7xk7ta9k9/package.tgz",
+  "_where": "/private/var/folders/zr/p7qm4xcd5ng0m6jh7tj_ykph0000gn/T/apm-install-dir-117729-82271-1jvdg9a.dwkbotj4i",
+  "bugs": {
+    "url": "https://github.com/h2so5/atom-chary-tree-view/issues"
+  },
+  "dependencies": {},
+  "description": "Tree-view responds to only double-click to avoid opening a large file accidentally",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.17.0"
+  },
+  "homepage": "https://github.com/h2so5/atom-chary-tree-view#readme",
+  "keywords": [
+    "tree-view",
+    "ui"
+  ],
+  "license": "MIT",
+  "main": "./lib/chary-tree-view",
+  "name": "chary-tree-view",
+  "optionalDependencies": {},
+  "readme": "# chary-tree-view package\n\nTree-view responds to only double-click to avoid opening a large file accidentally.\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/h2so5/atom-chary-tree-view.git"
+  },
+  "version": "0.2.13",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".js": [
+        "lib/chary-tree-view.js"
+      ],
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
+}
